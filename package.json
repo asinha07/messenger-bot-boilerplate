@@ -1,0 +1,23 @@
+{
+  "name": "messenger-bot-boilerplate",
+  "version": "1.0.0",
+  "description": "A boiler plate for a messenger bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run build dev",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Aman Sinha <aman.st.francis@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dialogflow": "^0.8.2",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "nodemon": "^1.18.10"
+  }
+}
